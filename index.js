@@ -46,8 +46,10 @@ function storePassword(user, string1, string2){
 }
 
 
-console.log(storePassword("John", "Pass1234", "Pass1234"));  // returns {name: "John", newpassword:"4321ssaP"}
-console.log(storePassword("John", "Pass123", "Pass12345")); // returns {name: "John", newpassword:"Pass123"}
+console.log(storePassword("John", "Pass1234", "Pass1234"));  
+console.log(storePassword("John", "Pass123", "Pass12345")); 
+console.log(storePassword("John", "pass1234", "pass1234"));  
+
 
 
 
